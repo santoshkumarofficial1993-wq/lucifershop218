@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Journal | Alden &amp; Roe</title>
+<meta name="description" content="Notes from the Alden &amp; Roe studio on materials, production, garment care and styling. Written by the people who make the clothes.">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://www.aldenandroe.com/journal.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Journal | Alden &amp; Roe">
+<meta property="og:description" content="Notes on materials, production, care and styling from a New York studio.">
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('ar-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  .entry-list { display: grid; }
+  .entry {
+    display: grid; gap: var(--s-3) var(--s-5);
+    padding-block: clamp(1.75rem, 3vw, 2.75rem);
+    border-bottom: 1px solid var(--line);
+    align-items: center;
+  }
+  .entry:first-child { border-top: 1px solid var(--line); }
+  @media (min-width: 780px) { .entry { grid-template-columns: 280px 1fr auto; } }
+  .entry img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: var(--r); transition: transform 800ms var(--ease); }
+  .entry:hover img { transform: scale(1.02); }
+  .entry h2 { font-size: clamp(1.35rem, 1.15rem + 0.8vw, 1.85rem); }
+  .entry p { color: var(--ink-soft); font-size: var(--fs-sm); margin-top: 0.5rem; max-width: 58ch; }
+  .entry__meta { font-size: var(--fs-xs); letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); }
+  .entry__go { color: var(--muted); }
+  @media (max-width: 779px) { .entry__go { display: none; } }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="announce">
+  Free carbon-neutral shipping on US orders over $150. <a href="shipping.html">Shipping details</a>
+</div>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html">Alden <span>&amp;</span> Roe</a>
+    <nav class="nav nav--desktop" aria-label="Primary">
+      <a href="shop.html">Shop</a>
+      <a href="lookbook.html">Lookbook</a>
+      <a href="journal.html" aria-current="page">Journal</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header__tools">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch colour theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+      <a class="icon-btn" href="contact.html" aria-label="Client care and contact">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </a>
+      <button class="icon-btn" type="button" data-open="cart-drawer" aria-expanded="false" aria-controls="cart-drawer" aria-label="Open shopping bag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="cart-count" data-cart-count hidden>0</span>
+      </button>
+      <button class="icon-btn nav-toggle" type="button" data-open="mobile-nav" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" inert>
+  <div class="mobile-nav__head">
+    <span class="brand">Alden <span>&amp;</span> Roe</span>
+    <button class="icon-btn" type="button" data-close aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <ul>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="lookbook.html">Lookbook</a></li>
+    <li><a href="journal.html">Journal</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="size-guide.html">Size Guide</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="mobile-nav__foot">
+    <a class="btn btn--solid btn--full" href="cart.html">View bag</a>
+    <p class="small muted mt-3">214 Mercer Street, Suite 3B<br>New York, NY 10012</p>
+  </div>
+</nav>
+
+<main id="main">
+  <section class="page-head">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol><li><a href="index.html">Home</a></li><li>Journal</li></ol>
+      </nav>
+      <h1>The journal</h1>
+      <p class="lede">Written by the three of us, mostly about things customers ask by email: what fabric costs, why a factory changed, how to keep a coat alive for ten years.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="entry-list" data-stagger>
+
+        <a class="entry reveal" href="journal-linen.html">
+          <img src="https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=700&q=80" alt="Bolts of linen stacked in a workroom" width="700" height="525" loading="lazy" data-seed="linen-bolts">
+          <div>
+            <p class="entry__meta">Materials &middot; 6 min read &middot; 14 July 2026</p>
+            <h2>What a $148 linen shirt actually costs to make</h2>
+            <p>Fabric, cutting, sewing, trims, freight, duty and margin, line by line for the Marguerite shirt. Including the parts that are less flattering than the marketing version.</p>
+          </div>
+          <span class="entry__go" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <a class="entry reveal" href="journal-linen.html">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=700&q=80" alt="A tailor pinning a hem in the studio" width="700" height="525" loading="lazy" data-seed="pinning-hem">
+          <div>
+            <p class="entry__meta">Craft &middot; 4 min read &middot; 26 June 2026</p>
+            <h2>Why we moved coat production to Brooklyn</h2>
+            <p>Freight was not the reason, though it helped. Sampling time was. Here is what changed in the process and what it cost us to move.</p>
+          </div>
+          <span class="entry__go" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <a class="entry reveal" href="journal-linen.html">
+          <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=700&q=80" alt="Neutral toned garments hanging together" width="700" height="525" loading="lazy" data-seed="neutral-rail">
+          <div>
+            <p class="entry__meta">Styling &middot; 5 min read &middot; 9 June 2026</p>
+            <h2>Four colours, eleven outfits</h2>
+            <p>The autumn palette stops at four shades on purpose. This is every combination that works, photographed on three different people.</p>
+          </div>
+          <span class="entry__go" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <a class="entry reveal" href="journal-linen.html">
+          <img src="https://images.unsplash.com/photo-1576871337622-98d48d1cf531?auto=format&fit=crop&w=700&q=80" alt="Close view of a cashmere knit stitch" width="700" height="525" loading="lazy" data-seed="knit-stitch">
+          <div>
+            <p class="entry__meta">Care &middot; 3 min read &middot; 21 May 2026</p>
+            <h2>How to wash cashmere without ruining it</h2>
+            <p>Cold water, a pH-neutral wash, no wringing, dry flat. The full method, plus what to do when a knit has already been through a hot cycle.</p>
+          </div>
+          <span class="entry__go" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <a class="entry reveal" href="journal-linen.html">
+          <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=700&q=80" alt="Interior of the Mercer Street studio" width="700" height="525" loading="lazy" data-seed="mercer-studio">
+          <div>
+            <p class="entry__meta">Studio &middot; 7 min read &middot; 3 May 2026</p>
+            <h2>A year of returns data, published</h2>
+            <p>Our return rate, the reasons customers give, and the three pattern changes we made because of them. Numbers included.</p>
+          </div>
+          <span class="entry__go" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <a class="entry reveal" href="journal-linen.html">
+          <img src="https://images.unsplash.com/photo-1554568218-0f1715e72254?auto=format&fit=crop&w=700&q=80" alt="Tailored garments on a studio rail" width="700" height="525" loading="lazy" data-seed="tailoring-rail">
+          <div>
+            <p class="entry__meta">Craft &middot; 5 min read &middot; 12 April 2026</p>
+            <h2>Half-canvassed, fully explained</h2>
+            <p>What canvassing does in a blazer, why fused jackets fail after a few years, and how to check which one you are holding in a shop.</p>
+          </div>
+          <span class="entry__go" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+
+      </div>
+
+      <nav class="pagination" aria-label="Pagination">
+        <span aria-current="page">1</span>
+        <a href="journal.html">2</a>
+        <a href="journal.html" aria-label="Next page">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+        </a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="section section--ink">
+    <div class="container">
+      <div class="signup">
+        <div>
+          <h2>New entries in your inbox</h2>
+          <p class="lede mt-3">Two emails a month at most. New releases, restock dates and whatever we wrote that week.</p>
+        </div>
+        <form data-validate data-success="You are on the list. Look for a confirmation email shortly." novalidate>
+          <div class="field">
+            <label for="j-email">Email address</label>
+            <div class="inline-form">
+              <input type="email" id="j-email" name="email" placeholder="ava@example.com" autocomplete="email" required>
+              <button class="btn btn--primary" type="submit">Subscribe</button>
+            </div>
+            <p class="err">Enter a valid email address.</p>
+            <p class="hint">Unsubscribe any time. See our <a class="text-link" href="privacy.html">Privacy Policy</a>.</p>
+          </div>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <span class="brand">Alden <span>&amp;</span> Roe</span>
+        <p>A women's fashion boutique on Mercer Street, New York. Small-batch clothing in natural fibres, made to be worn for years rather than seasons.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html">All pieces</a></li>
+          <li><a href="shop.html">New arrivals</a></li>
+          <li><a href="lookbook.html">Lookbook</a></li>
+          <li><a href="size-guide.html">Size guide</a></li>
+          <li><a href="cart.html">Your bag</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="shipping.html">Shipping &amp; delivery</a></li>
+          <li><a href="returns.html">Returns &amp; refunds</a></li>
+          <li><a href="accessibility.html">Accessibility</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="journal.html">Journal</a></li>
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="terms.html">Terms &amp; conditions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <address>
+          214 Mercer Street, Suite 3B<br>
+          New York, NY 10012<br>
+          <a href="tel:+12128047719">+1 (212) 804-7719</a><br>
+          <a href="mailto:hello@aldenandroe.com">hello@aldenandroe.com</a><br>
+          Mon to Sat, 10am to 7pm ET
+        </address>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; <span data-year>2026</span> Alden &amp; Roe LLC. All prices in USD.</p>
+      <nav aria-label="Legal">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="returns.html">Returns</a>
+        <a href="shipping.html">Shipping</a>
+        <a href="accessibility.html">Accessibility</a>
+      </nav>
+      <div class="pay-row">
+        <span>Visa</span><span>Mastercard</span><span>Amex</span><span>Discover</span><span>PayPal</span><span>Apple Pay</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<aside class="drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" inert>
+  <div class="drawer__head">
+    <h2>Your bag</h2>
+    <button class="icon-btn" type="button" data-close aria-label="Close bag">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <div class="drawer__body" id="cart-drawer-body"></div>
+  <div class="drawer__foot">
+    <div class="flex-between">
+      <span class="small muted">Subtotal (excl. tax and shipping)</span>
+      <strong data-cart-subtotal>$0.00</strong>
+    </div>
+    <a class="btn btn--primary btn--full" href="cart.html">Review bag</a>
+    <p class="form-note">Taxes and shipping are calculated at checkout. See <a class="text-link" href="shipping.html">shipping rates</a>.</p>
+  </div>
+</aside>
+
+<div class="cookiebar" id="cookiebar" role="region" aria-label="Cookie consent">
+  <p>We use essential cookies to run the store and, with your permission, analytics and advertising cookies to measure how the site performs. Read our <a class="text-link" href="privacy.html">Privacy Policy</a>.</p>
+  <div class="cookiebar__actions">
+    <button class="btn btn--sm" type="button" data-consent="essential">Essential only</button>
+    <button class="btn btn--primary btn--sm" type="button" data-consent="all">Accept all</button>
+  </div>
+</div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility Statement | Alden &amp; Roe</title>
+<meta name="description" content="How Alden &amp; Roe works toward WCAG 2.2 Level AA conformance, what is already in place, known gaps, and how to report an accessibility barrier.">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://www.aldenandroe.com/accessibility.html">
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('ar-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="announce">
+  Free carbon-neutral shipping on US orders over $150. <a href="shipping.html">Shipping details</a>
+</div>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html">Alden <span>&amp;</span> Roe</a>
+    <nav class="nav nav--desktop" aria-label="Primary">
+      <a href="shop.html">Shop</a>
+      <a href="lookbook.html">Lookbook</a>
+      <a href="journal.html">Journal</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header__tools">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch colour theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+      <a class="icon-btn" href="contact.html" aria-label="Client care and contact">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </a>
+      <button class="icon-btn" type="button" data-open="cart-drawer" aria-expanded="false" aria-controls="cart-drawer" aria-label="Open shopping bag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="cart-count" data-cart-count hidden>0</span>
+      </button>
+      <button class="icon-btn nav-toggle" type="button" data-open="mobile-nav" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" inert>
+  <div class="mobile-nav__head">
+    <span class="brand">Alden <span>&amp;</span> Roe</span>
+    <button class="icon-btn" type="button" data-close aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <ul>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="lookbook.html">Lookbook</a></li>
+    <li><a href="journal.html">Journal</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="size-guide.html">Size Guide</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="mobile-nav__foot">
+    <a class="btn btn--solid btn--full" href="cart.html">View bag</a>
+    <p class="small muted mt-3">214 Mercer Street, Suite 3B<br>New York, NY 10012</p>
+  </div>
+</nav>
+
+<main id="main">
+  <section class="page-head">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol><li><a href="index.html">Home</a></li><li>Accessibility</li></ol>
+      </nav>
+      <h1>Accessibility statement</h1>
+      <p class="lede">We build this store to be usable with a keyboard, a screen reader, magnification or reduced motion. Where we fall short, we would rather list it than pretend.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="legal-layout">
+        <nav class="toc" aria-label="On this page">
+          <a href="#commitment">Our commitment</a>
+          <a href="#standard">Conformance target</a>
+          <a href="#done">What is in place</a>
+          <a href="#gaps">Known gaps</a>
+          <a href="#assistive">Tested with</a>
+          <a href="#store">The physical studio</a>
+          <a href="#feedback">Report a barrier</a>
+        </nav>
+
+        <div class="prose">
+          <p class="legal-meta">Last reviewed 1 August 2026. Reviewed every six months and after any significant redesign.</p>
+
+          <h2 id="commitment">Our commitment</h2>
+          <p>Buying clothes online should not depend on being able to use a mouse, see fine detail, or tolerate motion. We treat accessibility as part of building the site rather than as a later fix, and we test each release against the checks listed below.</p>
+
+          <h2 id="standard">Conformance target</h2>
+          <p>We aim for <strong>WCAG 2.2 Level AA</strong>. Our current self-assessment is <strong>partially conformant</strong>: most of the site meets the standard, and the specific areas that do not are listed under known gaps.</p>
+
+          <h2 id="done">What is already in place</h2>
+          <ul>
+            <li><strong>Keyboard.</strong> Every interactive control can be reached and operated with a keyboard. Focus is always visible, and it is moved into and returned from the menu, bag drawer, filter panel and image viewer.</li>
+            <li><strong>Skip link.</strong> A "skip to main content" link is the first focusable item on every page.</li>
+            <li><strong>Contrast.</strong> Body text meets at least 4.5:1 against its background and large text at least 3:1, in both the light and dark themes.</li>
+            <li><strong>Text sizing.</strong> Layouts are built in relative units and remain usable at 200% zoom without horizontal scrolling.</li>
+            <li><strong>Reduced motion.</strong> If your system requests reduced motion, reveal animations, the scrolling text band and hover zooms are disabled automatically.</li>
+            <li><strong>Images.</strong> Product and editorial photographs carry descriptive alternative text. Decorative graphics are hidden from assistive technology.</li>
+            <li><strong>Forms.</strong> Every field has a visible label, errors appear next to the field they belong to in words rather than colour alone, and the first field with a problem receives focus on submit.</li>
+            <li><strong>Structure.</strong> Pages use landmarks and a single logical heading order, so screen reader users can jump between sections.</li>
+            <li><strong>Targets.</strong> Interactive controls are at least 44 by 44 pixels with clear spacing between them.</li>
+            <li><strong>Colour independence.</strong> No information, including stock status and sale pricing, is conveyed by colour alone.</li>
+          </ul>
+
+          <h2 id="gaps">Known gaps</h2>
+          <p>These are open and being worked on. If one of them blocks you, contact us and a person will complete the task with you by phone or email at no extra cost.</p>
+          <div class="table-wrap">
+            <table class="data-table">
+              <caption class="sr-only">Known accessibility issues and target resolution dates</caption>
+              <thead><tr><th scope="col">Issue</th><th scope="col">Impact</th><th scope="col">Target fix</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Embedded third-party map</th><td>The studio map is supplied by a third party and is not fully keyboard operable. The address is given as text directly above it.</td><td>Q4 2026</td></tr>
+                <tr><th scope="row">Older journal images</th><td>A small number of archive photographs have short alternative text that could be more descriptive.</td><td>Q3 2026</td></tr>
+                <tr><th scope="row">Payment provider checkout</th><td>The hosted payment step is controlled by our processor, so its conformance is not entirely in our hands. We report issues to them and can take an order by phone instead.</td><td>Ongoing</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2 id="assistive">What we test with</h2>
+          <ul>
+            <li>NVDA with Firefox on Windows</li>
+            <li>VoiceOver with Safari on macOS and iOS</li>
+            <li>Keyboard-only navigation in Chrome, Safari and Firefox</li>
+            <li>Browser zoom to 200% and 400%, plus 320 pixel wide viewports</li>
+            <li>Operating-system reduced-motion and dark-mode settings</li>
+            <li>Automated contrast and markup checks on every page before release</li>
+          </ul>
+
+          <h2 id="store">The Mercer Street studio</h2>
+          <p>We want to be straightforward about this: our studio is on the third floor of a walk-up building with no elevator, so it is not wheelchair accessible. If you would like to see or try pieces and cannot manage the stairs, email or call us. We regularly bring garments to a ground-floor space nearby by appointment, at no charge.</p>
+
+          <h2 id="feedback">Report a barrier</h2>
+          <p>If something on this site is difficult or impossible to use, tell us. Please include the page address, what you were trying to do, and the browser and assistive technology you were using if you know them.</p>
+          <ul>
+            <li>Email: <a href="mailto:access@aldenandroe.com">access@aldenandroe.com</a></li>
+            <li>Phone: <a href="tel:+12128047719">+1 (212) 804-7719</a>, Monday to Saturday, 10am to 7pm Eastern Time</li>
+            <li>Post: Alden &amp; Roe LLC, Attn: Accessibility, 214 Mercer Street, Suite 3B, New York, NY 10012, USA</li>
+          </ul>
+          <p>We acknowledge reports within 2 business days and give you a plan and a timeframe within 10 business days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <span class="brand">Alden <span>&amp;</span> Roe</span>
+        <p>A women's fashion boutique on Mercer Street, New York. Small-batch clothing in natural fibres, made to be worn for years rather than seasons.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html">All pieces</a></li>
+          <li><a href="shop.html">New arrivals</a></li>
+          <li><a href="lookbook.html">Lookbook</a></li>
+          <li><a href="size-guide.html">Size guide</a></li>
+          <li><a href="cart.html">Your bag</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="shipping.html">Shipping &amp; delivery</a></li>
+          <li><a href="returns.html">Returns &amp; refunds</a></li>
+          <li><a href="accessibility.html">Accessibility</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="journal.html">Journal</a></li>
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="terms.html">Terms &amp; conditions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <address>
+          214 Mercer Street, Suite 3B<br>
+          New York, NY 10012<br>
+          <a href="tel:+12128047719">+1 (212) 804-7719</a><br>
+          <a href="mailto:hello@aldenandroe.com">hello@aldenandroe.com</a><br>
+          Mon to Sat, 10am to 7pm ET
+        </address>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; <span data-year>2026</span> Alden &amp; Roe LLC. All prices in USD.</p>
+      <nav aria-label="Legal">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="returns.html">Returns</a>
+        <a href="shipping.html">Shipping</a>
+        <a href="accessibility.html">Accessibility</a>
+      </nav>
+      <div class="pay-row">
+        <span>Visa</span><span>Mastercard</span><span>Amex</span><span>Discover</span><span>PayPal</span><span>Apple Pay</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<aside class="drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" inert>
+  <div class="drawer__head">
+    <h2>Your bag</h2>
+    <button class="icon-btn" type="button" data-close aria-label="Close bag">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <div class="drawer__body" id="cart-drawer-body"></div>
+  <div class="drawer__foot">
+    <div class="flex-between">
+      <span class="small muted">Subtotal (excl. tax and shipping)</span>
+      <strong data-cart-subtotal>$0.00</strong>
+    </div>
+    <a class="btn btn--primary btn--full" href="cart.html">Review bag</a>
+    <p class="form-note">Taxes and shipping are calculated at checkout. See <a class="text-link" href="shipping.html">shipping rates</a>.</p>
+  </div>
+</aside>
+
+<div class="cookiebar" id="cookiebar" role="region" aria-label="Cookie consent">
+  <p>We use essential cookies to run the store and, with your permission, analytics and advertising cookies to measure how the site performs. Read our <a class="text-link" href="privacy.html">Privacy Policy</a>.</p>
+  <div class="cookiebar__actions">
+    <button class="btn btn--sm" type="button" data-consent="essential">Essential only</button>
+    <button class="btn btn--primary btn--sm" type="button" data-consent="all">Accept all</button>
+  </div>
+</div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
